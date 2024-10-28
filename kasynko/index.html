@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasyno</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="slots.js"></script>
+    <script src="dice.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+<h1>Witamy w Kasynku</h1>
+
+<!-- Sekcja slotów -->
+<h2>Symulator Slotów</h2>
+<button onclick="startGame()">Zagraj w Sloty</button>
+
+<div class="result">
+    <p id="slot1">-</p>
+    <p id="slot2">-</p>
+    <p id="slot3">-</p>
+</div>
+<br>
+<p id="message"></p> 
+
+<br><br><br><br><br>
+<h2>Gra w Kości</h2>
+<p>Obstawiaj: </p>
+
+<button onclick="betEven()">Parzysta</button>
+<button onclick="betOdd()">Nieparzysta</button>
+<p id="betMessage"></p>
+<div class="result">
+    <p id="die1">0</p>
+    <p id="die2">0</p>
+</div>
+<p id="diceMessage"></p> 
+<button onclick="rollDice()">Rzuć Kościami</button>
+
+</body>
+</html>
