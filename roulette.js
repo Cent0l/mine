@@ -110,11 +110,11 @@ function checkWin(finalResult) {
         (playerBet === "range3" && finalResult.result >= 51 && finalResult.result <= 75) ||
         (playerBet === "range4" && finalResult.result >= 76 && finalResult.result <= 99)) {
         win = true;
-        winnings = 100; 
+        winnings = 300; 
     } else if ((playerBet === "red" && finalResult.color === "red") ||
                (playerBet === "black" && finalResult.color === "black")) {
         win = true;
-        winnings = 200; 
+        winnings = 100; 
     } else if ((playerBet === "green" && finalResult.color === "green")) 
                 {
         win = true;
