@@ -2,19 +2,19 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding-top: 50px;
-    background-color: lightblue; /* Jasne niebieskie tło */
-    color: #333; /* Kolor tekstu */
+    background-color: lightblue; 
+    color: #333; 
 }
 
 h1 {
-    color: black; /* Kolor nagłówka */
+    color: black; 
 }
 
 button {
     padding: 10px 20px;
     font-size: 16px;
-    color: white; /* Kolor tekstu przycisku */
-    background-color: red; /* Czerwone tło przycisku */
+    color: white; 
+    background-color: pink; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -22,7 +22,7 @@ button {
 }
 
 button:hover {
-    background-color: blue; /* Kolor przycisku po najechaniu */
+    background-color: blue; 
 }
 
 .result {
