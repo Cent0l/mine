@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasyno - Hub</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="balance.js"></script>
+</head>
+<body>
+
+<h1>Witamy w Kasynku</h1>
+<h2>Saldo: <span id="balance">0</span>PLN</h2>
+
+<div class="balance-control">
+    <input type="number" id="depositInput" placeholder="Wpisz kwotę wpłaty (+/-)">
+    <button onclick="updateBalance()">Aktualizuj Saldo</button>
+</div>
+<br>
+<h2>Wybierz grę</h2>
+
+<div class="game-options">
+    <button onclick="window.location.href='slots.html'">Symulator Slotów</button>
+    <button onclick="window.location.href='dice.html'">Gra w Kości</button>
+    <button onclick="window.location.href='roulette.html'">Ruletka </button>
+    <button onclick="window.location.href='placeholder.html'">Gra Placeholder </button>
+</div>
+
+</body>
+</html>
