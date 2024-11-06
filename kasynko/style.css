@@ -44,6 +44,20 @@ button:hover {
     border-radius: 10px;
     margin: 0;
 }
+.result p2 {
+    font-size: 36px;
+    font-weight: bold;
+	font-color: transparent;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 0;
+    
+}
 
 #message {
     font-size: 24px;

@@ -1,4 +1,4 @@
-let balance = localStorage.getItem("balance") ? parseInt(localStorage.getItem("balance")) : 100; // Saldo początkowe 100
+let balance = localStorage.getItem("balance") ? parseInt(localStorage.getItem("balance")):100; // Saldo początkowe 100
 
 function updateBalance() {
     document.getElementById("balance").innerText = balance + " PLN";

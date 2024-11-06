@@ -7,24 +7,29 @@
     <link rel="stylesheet" href="style.css">
     <script src="roulette.js"></script>
 </head>
+
 <body>
- 
+
 <h1>Symulator Ruletki</h1>
+<h2>Saldo: <span id="balance">0</span></h2>
 <button onclick="window.location.href='index.html'">Powrót do Hubu</button>
-<p>Saldo: <span id="balance">100 PLN</span></p>
- 
-<h2>Obstawienie</h2>
-<button onclick="betEven()">Parzysta</button>
-<button onclick="betOdd()">Nieparzysta</button>
-<button onclick="betRed()">Czerwone (Parzyste)</button>
-<button onclick="betBlack()">Zielone (Nieparzyste)</button>
-<p id="betMessage"></p>
- 
-<h2>Wynik Gry</h2>
-<button onclick="rollDice()">Zakręć Ruletką</button>
-<p id="result">Wynik: -</p>
-<div id="colorBox" class="result-box">-</div>
+<p id="betMessage">Wybierz zakres lub kolor:</p>
+
+<button onclick="betRange1()">Zakres 0-25</button>
+<button onclick="betRange2()">Zakres 26-50</button>
+<button onclick="betRange3()">Zakres 51-75</button>
+<button onclick="betRange4()">Zakres 76-99</button>
+<button onclick="betRed()">Czerwone (Nieparzyste)</button>
+<button onclick="betBlack()">Czarne (Parzyste)</button>
+<button onclick="betGreen()">Zielone(0)</button>
+
+<div class="result">
+    <p id="result"> </p>
+    <p id="colorBox"></p>
+</div>
+
 <p id="diceMessage"></p>
- 
+<button onclick="rollDice()">Zakręć Ruletką</button>
+
 </body>
 </html>
